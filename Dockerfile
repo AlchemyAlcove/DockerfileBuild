@@ -21,4 +21,6 @@ RUN apt-get install -y \
     wget \
     imagemagick
 
+COPY rl.vm.args /home/ubuntu/
+
 CMD ["bin/bash"]

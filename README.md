@@ -15,10 +15,10 @@ docker images
 
 ssh into box
 ```shell
-docker run -i -t IMG_ID /bin/bash
+sudo docker run -i -t reviewlyft/elixir-node /bin/bash
 ```
 
 Push docker image to docker hub
 ```shell
-docker push reviewlyft/elixir-node
+sudo docker push reviewlyft/elixir-node
 ```
