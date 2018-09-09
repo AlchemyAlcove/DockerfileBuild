@@ -1,11 +1,11 @@
 # docker-lyft
-ReviewLyft project dockerfile for integration tests
+Elixir React project dockerfile.
 
 ## Scripts 
 
 Build docker image
 ```shell
-sudo docker build -t reviewlyft/elixir-node .
+sudo docker build -t alchemyalcove/elixir-node .
 ```
 
 List images
@@ -15,10 +15,10 @@ docker images
 
 ssh into box
 ```shell
-sudo docker run -i -t reviewlyft/elixir-node /bin/bash
+sudo docker run -i -t alchemyalcove/elixir-node /bin/bash
 ```
 
 Push docker image to docker hub
 ```shell
-sudo docker push reviewlyft/elixir-node
+sudo docker push alchemyalcove/elixir-node
 ```
