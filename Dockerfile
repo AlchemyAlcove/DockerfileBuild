@@ -12,6 +12,8 @@ RUN apt-get update \
     make \
     build-essential \
     sudo \
+    libssl1.0.0 \
+    libssl-dev \
  && rm -rf /var/lib/apt/lists/*
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x \
