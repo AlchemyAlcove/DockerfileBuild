@@ -5,7 +5,7 @@ ReviewLyft project dockerfile for integration tests
 
 Build docker image
 ```shell
-docker build -t reviewlyft/elixir-node .
+sudo docker build -t reviewlyft/elixir-node .
 ```
 
 List images
